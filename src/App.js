@@ -1,15 +1,5 @@
-import React from 'react';
-import { Content, Footer, Header } from './func-components';
-import Calendar from './class-components';
-import Banner from './banner';
-import {Calculator} from './calculator';
-import { EventData2 } from './event-data';
-import RefsFunc from './refs-func';
-
-
-function App() {
-  return (
-   <RefsFunc/>
-  )
+import React from 'react'
+import MessageBox from './state-func'
+export default function App() {
+  return <MessageBox/>
 }
-export default App;
